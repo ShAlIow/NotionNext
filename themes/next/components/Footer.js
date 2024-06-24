@@ -24,7 +24,7 @@ const Footer = ({ title }) => {
                 <span className='pl-2 hidden busuanzi_container_site_uv'>
                     <i className='fas fa-users' /> <span className='px-1 busuanzi_value_site_uv'> </span> </span>
                 <br />
-                <h1>行胜于言</h1>
+                <h1>行胜于言</h1><a href="https://icp.gov.moe/?keyword=20241118" target="_blank">萌ICP备20241118号</a>
                 <span className='text-xs font-serif  text-gray-500 dark:text-gray-300 '>Powered by  <a href={siteConfig('LINK')} className='underline '>{siteConfig('AUTHOR')}</a>.</span>
                 {/* 加入你想要添加的计时器脚本 */}
                 <span id="timeDate">载入天数...</span>
