@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 const Footer = ({ title }) => {
   useEffect(() => {
     const script = document.createElement("script");
-    script.src = "/path/to/timeCounter.js"; // 替换成实际的路径
+    script.src = "https://raw.githubusercontent.com/ShAlIow/NotionNext/main/themes/next/components/timeCounter.js"; // 替换成实际的路径
     script.async = true;
     document.body.appendChild(script);
     return () => {
