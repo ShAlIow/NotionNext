@@ -1,7 +1,6 @@
 import { siteConfig } from '@/lib/config'
 import DarkModeButton from '@/components/DarkModeButton'
-import timeDate from '@/components/timeCounter';
-import times from '@/components/timeCounter'
+
 const Footer = ({ title }) => {
   const d = new Date()
   const currentYear = d.getFullYear()
