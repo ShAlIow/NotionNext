@@ -1,16 +1,8 @@
 import { siteConfig } from '@/lib/config'
 import DarkModeButton from '@/components/DarkModeButton'
-import { useEffect } from 'react';
+import timeDate from '@/components/timeCounter';
+import times from '@/components/timeCounter'
 const Footer = ({ title }) => {
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://raw.githubusercontent.com/ShAlIow/NotionNext/main/themes/next/components/timeCounter.js"; // 替换成实际的路径
-    script.async = true;
-    document.body.appendChild(script);
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
   const d = new Date()
   const currentYear = d.getFullYear()
   const since = siteConfig('SINCE')
