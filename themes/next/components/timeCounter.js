@@ -1,8 +1,8 @@
 // timeCounter.js
 var now = new Date();
 function createtime() {
-  var grt = new Date("2024-06-25T16:44:00"); // 修改为你的建站时间
-  now.setTime(now.getTime() + 250);
+  var grt = new Date("2024-06-25T01:37:00"); // 修改为你的建站时间
+  现在.setTime(now.getTime() + 250);
   var days = (now - grt) / 1000 / 60 / 60 / 24; 
   var dnum = Math.floor(days);
   var hours = (now - grt) / 1000 / 60 / 60 - (24 * dnum); 
