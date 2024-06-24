@@ -18,14 +18,16 @@ const Footer = ({ title }) => {
                 <i className='fas fa-copyright' /> {`${copyrightDate}`} <span className='mx-1 animate-pulse'><i className='fas fa-heart' /></span> <a href={siteConfig('LINK')} className='underline font-bold '>{siteConfig('AUTHOR')}</a>.<br />
 
                 {siteConfig('BEI_AN') && <><i className='fas fa-shield-alt' /> <a href='https://beian.miit.gov.cn/' className='mr-2'>{siteConfig('BEI_AN')}</a><br /></>}
+                <a href="https://icp.gov.moe/?keyword=20241118" target="_blank">萌ICP备20241118号</a>
 
                 <span className='hidden busuanzi_container_site_pv'>
                     <i className='fas fa-eye' /><span className='px-1 busuanzi_value_site_pv'> </span> </span>
                 <span className='pl-2 hidden busuanzi_container_site_uv'>
                     <i className='fas fa-users' /> <span className='px-1 busuanzi_value_site_uv'> </span> </span>
                 <br />
-                <h1>行胜于言<a href="https://icp.gov.moe/?keyword=20241118" target="_blank">萌ICP备20241118号</a></h1>
+                <h1>行胜于言</h1>
                 <span className='text-xs font-serif  text-gray-500 dark:text-gray-300 '>Powered by  <a href={siteConfig('LINK')} className='underline '>{siteConfig('AUTHOR')}</a>.</span>
+                
                 {/* 加入你想要添加的计时器脚本 */}
                 <span id="timeDate">载入天数...</span>
                 <span id="times">载入时分秒...</span>
