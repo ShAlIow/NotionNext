@@ -1,3 +1,4 @@
+/*
 import busuanzi from '@/lib/plugins/busuanzi'
 import { useRouter } from 'next/router'
 import { useGlobal } from '@/lib/global'
@@ -24,3 +25,4 @@ export default function Busuanzi () {
   }, [theme])
   return null
 }
+/*
