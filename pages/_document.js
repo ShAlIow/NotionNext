@@ -35,6 +35,8 @@ class MyDocument extends Document {
             src="https://umami.uzi.us.kg/analysis"
             data-website-id="178180c5-cabc-40b2-9ed9-0328a23af983"
           ></script>
+           {/* 在这里添加 Vercount 的脚本标签 */}
+          <script defer src="https://vercount.one/js"></script>   
         </Head>
 
         <body>
