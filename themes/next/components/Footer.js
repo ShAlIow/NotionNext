@@ -19,7 +19,7 @@ const Footer = ({ title }) => {
 
                 {siteConfig('BEI_AN') && <><i className='fas fa-shield-alt' /> <a href='https://beian.miit.gov.cn/' className='mr-2'>{siteConfig('BEI_AN')}</a><br /></>}
                 <a href="https://icp.gov.moe/?keyword=20245918" target="_blank">萌ICP备20245918号</a>
-
+                <script defer src="https://vercount.one/js"></script>
                 <span className='hidden busuanzi_container_site_pv'>
                     <i className='fas fa-eye' /><span className='px-1 busuanzi_value_site_pv'> </span> </span>
                 <span className='pl-2 hidden busuanzi_container_site_uv'>
